@@ -133,7 +133,6 @@ function About() {
           </div>
           <div className="story-image">
             <div className="image-overlay">
-              <div className="play-btn">▶</div>
             </div>
           </div>
         </div>
