@@ -69,7 +69,7 @@ function Footer() {
               <span>
                 <a href={`tel:${phoneNumber}`}>{phoneNumber}</a>
                 <br></br>
-                <a href={`tel:${+919814699382}`}>+919814699382</a>
+                <a href={`tel:${+917696341505}`}>+917696341505</a>
               </span>
             </li>
             <li>
