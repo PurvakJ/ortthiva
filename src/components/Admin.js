@@ -431,7 +431,6 @@ function Admin() {
           <div className="login-footer">
             <p>📍 Crafted for Better Alignment. Designed for Better Sleep.</p>
             <p>📞 Mattress Experts: +91 80540 80555</p>
-            <p>✉️ care@Ortthiva.com</p>
           </div>
         </div>
       </div>

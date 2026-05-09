@@ -1032,3 +1032,346 @@
         text-align: center;
     }
 }
+
+/* Add these styles to your existing Admin.css */
+
+/* Mobile-specific tab layout */
+@media (max-width: 768px) {
+    .admin-tabs {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding: 20px;
+        background: var(--orthiva-cream-light);
+    }
+    
+    .tab-btn {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        border-radius: 60px;
+        padding: 16px 20px;
+        background: var(--white);
+        border: 1px solid var(--orthiva-cream-dark);
+        font-size: 15px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        box-shadow: var(--shadow-sm);
+    }
+    
+    .tab-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-md);
+    }
+    
+    .tab-btn.active {
+        background: linear-gradient(135deg, var(--orthiva-sage), var(--orthiva-sage-dark));
+        color: white;
+        border-color: transparent;
+        box-shadow: 0 4px 15px rgba(155, 184, 117, 0.3);
+    }
+    
+    .tab-btn.active::after {
+        display: none;
+    }
+    
+    /* Add icons to tabs for better visual */
+    .tab-btn:first-child::before {
+        content: "🛏️";
+        margin-right: 8px;
+        font-size: 18px;
+    }
+    
+    .tab-btn:nth-child(2)::before {
+        content: "📅";
+        margin-right: 8px;
+        font-size: 18px;
+    }
+    
+    .tab-btn:nth-child(3)::before {
+        content: "⭐";
+        margin-right: 8px;
+        font-size: 18px;
+    }
+    
+    /* Hide the original emoji in text to avoid duplication */
+    .tab-btn span {
+        display: inline-block;
+    }
+}
+
+/* For smaller screens (480px and below) */
+@media (max-width: 480px) {
+    .admin-tabs {
+        padding: 16px;
+        gap: 10px;
+    }
+    
+    .tab-btn {
+        padding: 14px 18px;
+        font-size: 14px;
+    }
+    
+    .tab-btn::before {
+        font-size: 16px;
+    }
+}
+
+/* Optional: Add a sticky header for better UX on mobile */
+@media (max-width: 768px) {
+    .admin-header {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        padding: 16px 20px;
+    }
+    
+    .admin-title h1 {
+        font-size: 18px;
+    }
+    
+    .admin-icon {
+        font-size: 24px;
+    }
+    
+    .admin-badge {
+        font-size: 9px;
+        padding: 4px 10px;
+    }
+    
+    .admin-contact-info {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+    
+    .admin-contact-info span {
+        font-size: 12px;
+    }
+    
+    .logout-btn {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    /* Improve table readability on mobile */
+    .table-container {
+        border-radius: 16px;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .admin-table {
+        min-width: 700px;
+    }
+    
+    .admin-table th,
+    .admin-table td {
+        padding: 12px 16px;
+        font-size: 12px;
+    }
+    
+    /* Improve action buttons on mobile */
+    .action-buttons {
+        flex-direction: column;
+        gap: 6px;
+    }
+    
+    .btn-edit, .btn-delete {
+        width: 100%;
+        text-align: center;
+        padding: 8px 12px;
+    }
+    
+    /* Improve modal on mobile */
+    .modal-content {
+        max-width: 95%;
+        margin: 10px;
+        border-radius: 20px;
+    }
+    
+    .modal-header {
+        padding: 16px 20px;
+    }
+    
+    .modal-header h2 {
+        font-size: 18px;
+    }
+    
+    .modal-content form {
+        padding: 20px;
+    }
+    
+    /* Improve form elements on mobile */
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+        padding: 10px 14px;
+        font-size: 14px;
+    }
+    
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    
+    /* Improve image grid on mobile */
+    .image-grid {
+        gap: 8px;
+    }
+    
+    .image-preview-container {
+        width: 80px;
+        height: 80px;
+    }
+    
+    /* Improve category select on mobile */
+    .category-select-wrapper {
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .btn-add-category {
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .new-category-input {
+        flex-wrap: wrap;
+    }
+    
+    .new-category-input input {
+        width: 100%;
+    }
+    
+    .btn-confirm-category,
+    .btn-cancel-category {
+        flex: 1;
+        padding: 8px;
+    }
+    
+    /* Improve modal actions on mobile */
+    .modal-actions {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .btn-submit-product,
+    .btn-cancel-modal {
+        width: 100%;
+        padding: 12px;
+    }
+    
+    /* Loading spinner on mobile */
+    .loading-spinner {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* For very small devices (under 380px) */
+@media (max-width: 380px) {
+    .admin-tabs {
+        padding: 12px;
+        gap: 8px;
+    }
+    
+    .tab-btn {
+        padding: 12px 16px;
+        font-size: 13px;
+    }
+    
+    .admin-table th,
+    .admin-table td {
+        padding: 10px 12px;
+        font-size: 11px;
+    }
+    
+    .mini-image {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .category-badge {
+        font-size: 10px;
+        padding: 4px 8px;
+    }
+    
+    .featured-badge {
+        font-size: 9px;
+        padding: 4px 8px;
+    }
+}
+
+/* Improve touch targets for buttons on mobile */
+@media (max-width: 768px) {
+    button, 
+    .tab-btn,
+    .btn-add,
+    .btn-edit,
+    .btn-delete,
+    .logout-btn,
+    .featured-btn,
+    .close-modal,
+    .remove-image-btn,
+    .file-input-label,
+    .btn-add-category,
+    .btn-confirm-category,
+    .btn-cancel-category {
+        min-height: 44px; /* Apple's recommended minimum touch target size */
+    }
+    
+    /* Ensure touch targets are easily clickable */
+    .tab-btn {
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+    }
+    
+    .tab-btn:active {
+        transform: scale(0.98);
+    }
+}
+
+/* Smooth scrolling for mobile */
+@media (max-width: 768px) {
+    .admin-container {
+        overflow-x: hidden;
+    }
+    
+    .modal-content {
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .table-container {
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+/* Optional: Add a floating action button for add product on mobile */
+@media (max-width: 768px) {
+    .admin-actions {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 99;
+    }
+    
+    .btn-add {
+        box-shadow: 0 4px 15px rgba(155, 184, 117, 0.4);
+        padding: 14px 20px;
+    }
+    
+    .btn-add:hover {
+        transform: translateY(-2px);
+    }
+    
+    /* Add padding to bottom of content to avoid overlap with FAB */
+    .admin-content {
+        padding-bottom: 80px;
+    }
+}
