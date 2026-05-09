@@ -68,7 +68,7 @@ function About() {
 
   // Full mattress images (replace with your actual images)
   const fullMattressImages = [
-    "https://i5.walmartimages.com/seo/MLILY-2-inch-Queen-Mattress-Topper-Cooling-Gel-Memory-Foam-Topper-with-Removable-Cover-Non-Slip-Design_2525095a-248f-4e2f-a4e2-29dabb8ac4a0.64f7a3b29d7aee5e1134818bb653bce6.jpeg?odnHeight=328&odnWidth=328&odnBg=FFFFFF",
+    "https://www.rentomojo.com/blog/wp-content/uploads/2025/08/what-is-a-memory-foam-mattress.png",
     "https://i.postimg.cc/t4xPG9xW/Gemini-Generated-Image-lnp16flnp16flnp1.jpg",
     "https://i.postimg.cc/vZV9wGVW/Gemini-Generated-Image-ymtdxdymtdxdymtd.jpg"
   ];
