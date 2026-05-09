@@ -47,8 +47,8 @@ function Admin() {
 
   // Ortthiva Admin Credentials
   const ADMIN_CREDENTIALS = {
-    username: 'Ortthivaadmin',
-    password: 'Ortthiva@2024'
+    username: 'ortthivaadmin',
+    password: 'ortthiva@2024'
   };
 
   // Define loadData with useCallback to prevent unnecessary re-renders
