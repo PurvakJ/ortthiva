@@ -17,7 +17,7 @@ function Footer() {
           <div className="footer-logo">
           <div className="logo-icon">
   <img 
-    src="https://i.postimg.cc/sgCTQHsz/Whats-App-Image-2026-05-07-at-18-40-33-removebg-preview.png" 
+    src="https://i.postimg.cc/Zngg1dfs/Whats-App-Image-2026-05-09-at-19-23-32-removebg-preview.png" 
     alt="Ortthiva Logo" 
   />
 </div>

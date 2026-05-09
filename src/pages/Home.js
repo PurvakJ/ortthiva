@@ -27,12 +27,12 @@ const Home = () => {
   // Carousel images for Ortthiva
   const carouselImages = [
     {
-      url: "https://mysleepyhead.com/cdn/shop/files/Original_PDP_5.jpg?v=1768928275&width=1946",
+      url: "https://i.postimg.cc/15kc2HH5/doble-bed-with-two-nightstand-(1).jpg",
       title: "Orthopedic Support",
       subtitle: "Perfect Spinal Alignment for Better Sleep"
     },
     {
-      url: "https://www.duroflexworld.com/cdn/shop/files/2_2026e6ee-a9e8-4ff5-88c7-104fea9cefb8.jpg?v=1744560694",
+      url: "https://i.postimg.cc/7PQNMDJG/life-style.jpg",
       title: "Premium Memory Foam",
       subtitle: "Pressure Relief Technology"
     },
@@ -107,7 +107,7 @@ const Home = () => {
     },
     {
       id: 2,
-      image: "https://static.independent.co.uk/2026/04/22/12/43/Emma-original-mattress.png",
+      image: "https://www.leesa.com/_next/image?url=https%3A%2F%2Fimages.contentstack.io%2Fv3%2Fassets%2Fbltdab0c7b06198f4c2%2Fblt3d32b5e829dd6ccf%2F6369636f35d5277e5bd145fc%2Fshutterstock_1953454504.jpg&w=3840&q=75",
       title: "M E M O R Y\nF O A M",
       fullTitle: "MEMORY FOAM",
       description: "Pressure-relieving comfort layers"
@@ -543,8 +543,8 @@ const Home = () => {
               <div className="stat-label">Years Warranty</div>
             </div>
             <div className="stat-item">
-              <div className="stat-number">100<span>%</span></div>
-              <div className="stat-label">Non-Toxic</div>
+              <div className="stat-number">17<span>Years</span></div>
+              <div className="stat-label">Experience</div>
             </div>
             <div className="stat-item">
               <div className="stat-number">8<span>hrs</span></div>
