@@ -60,6 +60,9 @@ function Contact() {
             <a href="tel:+917696329012" className="hero-call-btn">
               📞 Call Now: +91 76963 29012
             </a>
+            <a href="tel:+919814699382" className="hero-call-btn">
+              📞 Call Now: +91 98146 99382
+            </a>
             <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="hero-wa-btn">
               💬 WhatsApp Us
             </a>
@@ -77,6 +80,10 @@ function Contact() {
               <h3>Call Our Experts</h3>
               <p><strong>
                 <a href="tel:+917696329012">+91 76963 29012</a>
+                <br></br>
+                <a href="tel:+919814699382">
+              +91 98146 99382
+            </a>
               </strong></p>
               <small>Mon-Sat, 10 AM - 7 PM</small>
               <small>Sunday: Closed</small>

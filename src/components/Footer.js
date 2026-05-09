@@ -68,6 +68,8 @@ function Footer() {
               <span className="contact-icon">📞</span>
               <span>
                 <a href={`tel:${phoneNumber}`}>{phoneNumber}</a>
+                <br></br>
+                <a href={`tel:${+919814699382}`}>+919814699382</a>
               </span>
             </li>
             <li>
