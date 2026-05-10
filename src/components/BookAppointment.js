@@ -69,7 +69,7 @@ function BookAppointment() {
           <h1>Book a <span>Sleep Consultation</span></h1>
           <p>Schedule a personalized mattress consultation at our experience center or request a home visit</p>
           <div className="contact-badge">
-            <span>📞 Need help? Call our sleep experts: <a href="tel:+918054080555">+91 80540 80555</a></span>
+            <span>📞 Need help? Call our sleep experts: <a href="tel:+917696329012">+91 76963 29012</a></span>
           </div>
         </div>
       </section>
@@ -109,8 +109,8 @@ function BookAppointment() {
                 <p>Visit our flagship experience center to feel the Ortthiva difference</p>
                 <div className="address">
                   <span>📍 Ortthiva Experience Center</span>
-                  <span>Near Haryali Pump, Maur Mandi</span>
-                  <span>Distt. Bathinda (151509)</span>
+                  <span>Jawaharke Road, Sadar Mansa</span>
+                  <span>Near Ganga Oil Mill, Distt. Mansa (151505), Punjab</span>
                 </div>
                 <div className="hours">
                   <span>🕐 Mon-Sat: 10 AM - 7 PM</span>
